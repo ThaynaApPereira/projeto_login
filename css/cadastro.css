@@ -1,0 +1,129 @@
+:root{
+   --cor--primaria: #674188;
+   --cor--secundaria:black;
+   --cor--terciaria: #fff;
+    --cor--quaternaria:#F806CC;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+    color: #323232;
+    border: none;
+}
+body{
+    background-image: url('../assets/roxo.png');
+    background-size: cover;
+}
+h1{
+    color: #fff;
+}
+label{
+    color: #fff;
+}
+textarea:focus, input:focus{
+    outline: none;
+}
+form{
+    margin-top: 30px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items:flex-end;
+}
+.half-box{
+    flex: 0 0 48%;
+    position: relative;
+
+}
+.full-box{  
+    flex: 1 1 100%;
+    position:relative;
+    
+}
+input[type="submit"]{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    border:none;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 30px;
+    color: #fff;
+    background-color: blue;
+    cursor: pointer;
+}
+#main-container{
+    background-color: black;
+    width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 30px;
+    margin-top: 10vh;
+    border-radius: 10px;
+    text-align: center;
+}
+
+form{
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+label, input{
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+label, input{
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+label{
+    font-weight: bold;
+}
+input{
+    border-bottom: 2px solid #323232;
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+input:focus{
+    border-bottom: 2px solid #A91079;
+}
+
+
+input[type="submit"]:hover{
+    background-color:#F806CC ;
+    transition: .5s;
+}
+
+#full-box{
+    margin-bottom: 10px;
+}
+
+input[type='checkbox']{
+    display: flex;
+    width:20px;
+}
+.box{
+    display: flex;
+}
+a{
+    color: #fff;
+}
+a:hover{
+    color:#674188
+}
+#agreement, #agreement-label{
+    display: inline-block;
+    width: auto;
+}
+.error-validation{
+    color: red;
+    position: absolute;
+    top: 57px;
+    font-size: .8rem;
+}
